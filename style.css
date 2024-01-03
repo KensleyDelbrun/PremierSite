@@ -1,0 +1,408 @@
+/*universal design*/
+body{
+  font-family: "gothic", sans-serif;
+  padding: 0px;
+  background: #03A9F4;
+  margin: 0px;
+  font-size: 15px;
+  width: 100%;
+}
+
+header{
+  width:100%;
+  background-color: black;
+  border:2px solid #fff;
+}
+
+.cadlo{
+  width:50px;
+  display:table;
+  margin:0px auto;
+}
+
+nav{
+  width:100%;
+  background-color: black;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 5px 0px;
+  color: #fff;
+}
+
+.bar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar-nav-p{
+  display: flex;
+  justify-content: flex-start;
+}
+.bar-nav-s{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 20px;
+  color: #fff;
+  font-style: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav a:hover{
+  color:#fff;
+  border-left: #03A9F4 5px solid;
+  text-transform: uppercase;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 0px;
+  border: 2px solid #fff;
+}
+
+/*histoire.html*/
+
+.Espace_info{
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px 15px 10px;
+  background-color: #03A9F4;
+}
+
+.ContenuHistorique{
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  font-size: 22px;
+  margin: 7%;
+  text-align: center;
+  border: #03A9F4 dashed 2px;
+}
+
+.t-p{
+  font-size: 150%;
+  color: #fff;
+  text-align: center;
+}
+
+/*index.html*/
+
+.Boitepre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes presentation1{
+  99%{
+    display: block;
+    color: #03A9F4;
+  }
+  100%{
+    display: none;
+  }
+}
+
+@keyframes presentation2{
+  99%{
+    display: block;
+    color: #03A9F4;
+  }
+  100%{
+    display: none;
+  }
+}
+
+@keyframes presentation3{
+  99%{
+    display: block;
+    color: #03A9F4;
+  }
+  100%{
+    display: none;
+  }
+}
+
+@keyframes presentation4{
+  99%{
+    display: block;
+    color: #03A9F4;
+  }
+  100%{
+    display: none;
+  }
+}
+
+.Petitpre1{
+  width:100%;
+  margin: 2%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  animation-name: presentation1;
+  animation-duration: 10s;
+}
+
+.Petitpre2{
+  width:100%;
+  display: none;
+  margin: 2%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  animation-delay: 10s;
+  animation-name: presentation2;
+  animation-duration: 10s;
+}
+
+.Petitpre3{
+  width:100%;
+  display: none;
+  margin: 2%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  animation-delay: 20s;
+  animation-name: presentation3;
+  animation-duration: 10s;
+}
+
+.Petitpre4{
+  width:100%;
+  display: none;
+  margin: 2%;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  animation-delay: 40s;
+  animation-name: presentation4;
+  animation-duration: 10s;
+}
+
+.par-for{
+  width:100%;
+  background-color: #03A9F4;
+  display: table;
+  margin: 0px auto;
+}
+
+.sec-inf{
+  width: 100%;
+  display: table;
+  margin: 0px auto;
+  font-size: 14px;
+}
+.boi-t-info{
+  margin: 10px;
+  width: 100%;
+  background-color: black;
+  margin: 35px;
+}
+.tit-inf{
+  text-align: center;
+  font-size: 20px;
+  background-color: black;
+  margin: 0px;
+  color: #fff;
+}
+.alg-ver{
+  width: 100%;
+  display: flex;
+}
+.s-t{
+  text-align: center;
+  font-size: 20px;
+}
+.boi-d-tit{
+  width: 50%;
+  background-color: black;
+  box-shadow: #1f1e1e 5px 5px;
+  color: #fff;
+  font-size:25px;
+  display: table;
+  margin: 0px auto;
+  margin: 15px;
+  border: 2px dashed #03A9F4;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  text-align: center;
+}
+.s-sec-for{
+  display:inline-flex;
+  justify-content: center;
+}
+.prt2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  padding: 3px;
+  text-decoration: underline dashed 3px #03A9F4;
+}
+
+/*produit.html*/
+.sec-pro{
+  width: 100%;
+  display: table;
+  margin: 0px auto;
+  background-color: #03A9F4;
+}
+.alg-hor{
+  display: flex;
+  justify-content: space-around;
+}
+.t-i{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-top: 3px dashed #03A9F4;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+
+.b-p{
+  width: 50%;
+  margin: 10px;
+  border: dashed 2px #ffff;
+  text-align: center;
+  padding: 5px;
+}
+
+.t-p-1{
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  border: left bottom dashed 3px #ffff;
+  padding: 10px;
+}
+
+/*achat.html*/
+
+form{
+  width: 80%;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  border: 5px solid #fff;
+  margin-bottom: 5%;
+} 
+
+.GrandeBoite{  
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+
+.PetiteBoite{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  font-weight: bold;
+  margin: 15px;
+  border: #fff dashed 2px;
+}
+
+.champ{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contre-champ{
+  font-size:15px ;
+  font-weight: bold;
+}
+
+.element1{
+  width: 40%;
+}
+
+.element2{
+  width: 40%;
+}
+
+/*employe.html*/
+
+.form_log{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.InfoEntree{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.InfoEntreeB{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.elinfoenB1,.elinfoenB2{
+  width: 20%;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.elinfoen1{
+  width: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.elinfoen2{
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.emp{
+  text-align: center;
+  font-size: 300%;
+  color: rgb(20, 19, 19);
+  text-decoration: underline;
+}
+
+.emp:hover{
+  color: rgb(55, 51, 51);
+}

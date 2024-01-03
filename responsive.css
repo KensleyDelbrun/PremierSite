@@ -1,0 +1,201 @@
+/*Affichage mobile*/
+
+@media screen and (max-width: 800px){
+
+    /*index.html*/
+    body{
+      width: 100%;
+    }
+
+    header{
+      margin:0px;
+      width: 100%;
+    }
+
+  .bar-nav{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+.contenuCache{
+  display: none;
+  background-color: rgb(86, 76, 76);
+}
+
+
+.bar-nav-p{
+      display: flex;
+      flex-direction: column;
+}
+
+.bar-nav-s{
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1{
+      font-size: 30px;
+      padding: 0px auto;
+    }
+
+    nav:hover .contenuCache{
+        display: block;
+        display: flex;
+        justify-content: flex-start;
+        background-color: black;
+    }
+
+   a{
+      font-size: 20px;
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+      }
+  
+
+    /*Histoire*/
+.Espace_info{
+      box-sizing: border-box;
+      margin:0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  /*index.html*/
+
+.Boitepre{
+    display: flex;
+  }
+  
+.Petitpre1{
+    
+  }
+
+ 
+  .Petitpre2{
+    display: none;
+  }
+
+   
+  .Petitpre3{
+    display: none;
+  }
+
+   
+  .Petitpre4{
+    display: none;
+  }
+
+  .sec-inf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .alg-ver{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  /*produit.html*/
+  
+  .alg-hor{
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  /*Compte employe*/
+  
+  .form_log{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .InfoEntree{
+    width: 77%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .InfoEntreeB{
+    width: 77%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .elinfoen1,.elinfoen2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4%;
+  }
+  
+  .elinfoenB1,.elinfoenB2{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3%;
+    box-sizing: border-box;
+  }
+  
+  /*achat.html*/
+  
+form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: dashed 5px #fff;
+    border-radius: 5px;
+  }
+  
+.GrandeBoite{  
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.PetiteBoite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    margin: 15px;
+    border: none;
+  }
+  
+.champ{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .contre-champ{
+    font-size:15px ;
+    font-weight: bold;
+  }
+  
+  .element1{
+    width: 40%;
+  }
+  
+  .element2{
+    width: 40%;
+  }
+  
+  }
