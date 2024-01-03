@@ -1,1 +1,3 @@
 # PremierSite
+Dans l'objectif de maitriser les bases du front-end(javascript,css,html), j'ai décidé de construire 
+ce site sans l'utilisation de framework tels:Tailwind, Bootstrap ...
